@@ -1,0 +1,36 @@
+Package: atom
+Architecture: amd64
+Version: 1.29.0
+Priority: optional
+Section: devel
+Maintainer: GitHub <atom@github.com>
+Installed-Size: 562292
+Depends: git, gconf2, gconf-service, libgtk-3-0 (>= 3.9.10), libudev0 | libudev1, libgcrypt11 | libgcrypt20, libnotify4, libxtst6, libnss3 (>= 2:3.22), python, gvfs-bin, xdg-utils, libcap2, libx11-xcb1, libxss1, libasound2 (>= 1.0.16), libxkbfile1
+Recommends: lsb-release
+Suggests: libsecret-1-0, gir1.2-gnomekeyring-1.0
+Filename: ./amd64/atom-amd64.deb
+Size: 86726802
+MD5sum: a9a956b4bdd0e56cd40d5fe7987a3449
+SHA1: 96b86808215bce12f2342242acb16dcca2974627
+SHA256: dfa598d38216ab9dc187e40d279cb69a57b6c9dc3d1ca8d0c4140bae90bd1838
+SHA512: 661d95a1865dd1acf73f28626aaf06e7935564917e89320ed92c2becf3e7328915d4b234c18573b64e7c3485cddc1c6307fc57506f493710142721a0df6facaa
+Description: A hackable text editor for the 21st Century.
+ Atom is a free and open source text editor that is modern, approachable, and hackable to the core.
+
+Package: gitkraken
+Architecture: amd64
+Version: 4.0.2
+Priority: optional
+Section: devel
+Maintainer: Axosoft, LLC <gitkraken@axosoft.com>
+Installed-Size: 361600
+Depends: gconf2, gconf-service, libgtk2.0-0, libudev0 | libudev1, libgcrypt11 | libgcrypt20, libnotify4, libxtst6, libnss3, libxkbfile1, python, gvfs-bin, xdg-utils
+Suggests: libgnome-keyring0, gir1.2-gnomekeyring-1.0
+Filename: ./amd64/gitkraken-4.0-amd64.deb
+Size: 68569614
+MD5sum: d15f6162ea6483b4cab504c121b1a977
+SHA1: 3ceb95c1a8b4f1b1b2c4c6dc15ea070a6b75bed3
+SHA256: fde5c3286c616d7d3bb43a2494ff8797cc2a9be076ed48144fec31574e9bcc36
+SHA512: f3665d7babc5a4388ebb13ca802a91eac8de4d67716b419dfd56d51e85e3f8919bec3018db51dd1d0b12bd04fafe008d1561471b0ec13698e4c05a82b36ef594
+Description: Unleash your repo
+
